@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: project
 title:  "Submission Portal and Online Judge"
 date:   2015-10-26 2015-10-26
-categories: blog
+categories: project_blog
 author: Gautam Kumar
 url_pr: https://github.com/rptgautam/SPONJ
 description: "wdasdxz"
