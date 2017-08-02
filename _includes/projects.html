@@ -1,0 +1,39 @@
+<!--<section class="alt-section"><h2 id="work">Work</h2>-->
+    <!--<div class="thumb-container"><a href="" class="thumb-unit">-->
+        <!--<div class="tumb-overlay"><strong> Typo</strong>-->
+            <!--<div class="zoom-icon"></div>-->
+        <!--</div>-->
+    <!--</a><a href="" class="thumb-unit">-->
+        <!--<div class="tumb-overlay"><strong> Typo</strong>-->
+            <!--<div class="zoom-icon"></div>-->
+        <!--</div>-->
+    <!--</a><a href="" class="thumb-unit">-->
+        <!--<div class="tumb-overlay"><strong> Typo</strong>-->
+            <!--<div class="zoom-icon"></div>-->
+        <!--</div>-->
+    <!--</a><a href="" class="thumb-unit">-->
+        <!--<div class="tumb-overlay"><strong> Typo</strong>-->
+            <!--<div class="zoom-icon"></div>-->
+        <!--</div>-->
+    <!--</a><a href="" class="thumb-unit">-->
+        <!--<div class="tumb-overlay"><strong> Typo</strong>-->
+            <!--<div class="zoom-icon"></div>-->
+        <!--</div>-->
+    <!--</a></div>-->
+<!--</section>-->
+
+<h2 id="Blog"> Projects </h2>
+<hr class="bar-blog"> </hr>
+{% for post in site.categories['blog'] limit:3%}
+
+<div class="post-header title">
+    <a href="{{ post.url_pr }}"><h1 class="post-title">{{ post.title }}</h1></a>
+</div>
+<div class="post-header date">
+    <p class="project-meta">{{ post.date | date: "%B %-d, %Y — %B %-d, %Y" }}
+        {% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}
+    {{ post.description }}{% endif %}</p>
+</div>
+
+{% endfor %}
+<hr class="bar-blog"> </hr>
