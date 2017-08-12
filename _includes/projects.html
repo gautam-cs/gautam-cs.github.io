@@ -30,7 +30,8 @@
     <a href="{{ project.url_pr }}"><h1 class="post-title">{{ project.title }}</h1></a>
 </div>
 <div class="post-header date">
-    <p class="project-meta">{{ project.date | date: "%B %-d, %Y — %B %-d, %Y" }}
+    <div class="org"></div>
+    <p class="project-meta">{{ project.organisation}}<br/>{{ project.date | date: "%B %-d, %Y — %B %-d, %Y" }}
         {% if project.author %} • {{ project.author }}{% endif %}{% if project.meta %} • {{ post.meta }}
     {{ project.description }}{% endif %}<br/>{{project.description}}</p>
 </div>

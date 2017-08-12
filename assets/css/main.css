@@ -716,7 +716,7 @@ header {
     color: #22719a; }
 
 footer {
-  background: url(../img/galway3.jpg) center center;
+  background: url(../img/footer.jpg) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -724,7 +724,7 @@ footer {
       clear: both;
       content: "";
       display: table; }
-    footer .lockup .content-wrap .copyright {
+    footer .lockup .content-wrap  {
       margin: 0;
       text-transform: uppercase;
       font-size: 12px;
@@ -735,6 +735,11 @@ footer {
       margin-right: 30px; }
       footer .lockup a:hover {
         color: black; }
+.copyright{
+  content:"\00a9 me";
+  font-size: 20px;
+  color: #040404;
+}
 
 @media only screen and (min-width: 220px) {
   .about-lock {
@@ -751,7 +756,7 @@ footer {
       display: flex;
       margin: auto;
       border-radius: 60%;
-      background: url(../img/face.JPG) no-repeat; }
+      background: url(../img/face.jpg) no-repeat; }
     .about-lock .face1-img {
       height: 180px;
       width: 180px;
