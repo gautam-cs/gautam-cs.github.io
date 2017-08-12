@@ -4,6 +4,10 @@ title:  "DeepDivr"
 date:   2015-10-26 2015-10-26
 categories: project_blog
 author: Gautam Kumar
-description: "wdasdxz"
+description: "DeepDivr is a data analytics Project. It is very difficult to visualize any data in numbers. So in this project, I tried to
+              develop framework in which user can query in their natural language and can get output in graphs. The graph may be
+              Bar graph, Line graph and the decision tree. We have integrated different layers like NLP layer, Module Decider layer,
+              Graph plotting layer. The whole dataset is converted into graph database(using neo4j) which further helped in developing
+              more functionality for our data since in graph database every node connected using edges."
 ---
 
