@@ -32,7 +32,7 @@
 <div class="post-header date">
     <p class="project-meta">{{ project.date | date: "%B %-d, %Y — %B %-d, %Y" }}
         {% if project.author %} • {{ project.author }}{% endif %}{% if project.meta %} • {{ post.meta }}
-    {{ project.description }}{% endif %}</p>
+    {{ project.description }}{% endif %}<br/>{{project.description}}</p>
 </div>
 
 {% endfor %}

@@ -4,4 +4,9 @@ title:  "GBike"
 author: Gautam Kumar
 date:   2016-05-02 2015-10-26
 categories: project_blog
+description: "Gandhinagar Urban Development Authority(GUDA) has initiated a community bike sharing system in Gandhinagar.
+             Around ten, cycle pick-up and drop stands have been set up from where people can take the bike and return it to any
+             of the stand after the use. I worked in a team of 4 members to build a digital log maintenance system (as my summer             1
+             design project). It involved back-end and web development for the proper management of cycle for the stand person and
+             the supervisor from the administrator side.I worked as the back-end developer and created database for the system."
 ---

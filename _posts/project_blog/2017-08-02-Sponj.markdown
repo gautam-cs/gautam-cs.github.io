@@ -5,6 +5,8 @@ date:   2015-10-26 2015-10-26
 categories: project_blog
 author: Gautam Kumar
 url_pr: https://github.com/rptgautam/SPONJ
-description: "wdasdxz"
+description: "SPONJ Submissions Portal and Online Judge is a web application which provides a way of taking Lab/Tutorial Assignment Submissions and Evaluation System online. This web application provides both Professors and TAs easily usable
+              features to prepare and evaluate assignments and critically analyse their results and also opens up a common platform for
+              Students to view, solve, submit, manage and review their assignments"
 ---
 
