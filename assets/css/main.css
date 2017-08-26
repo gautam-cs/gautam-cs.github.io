@@ -676,20 +676,17 @@ header {
       header h1 {
         padding-top: 20px;
         font-size: 32px;
-        font-weight: 350;
-        font-style: oblique;} }
+        font-weight: 350; } }
     @media only screen and (min-width: 650px) {
       header h1 {
         padding-top: 10px;
         font-size: 30px;
-        font-weight: 350;
-        font-style: oblique;} }
+        font-weight: 350; } }
     @media only screen and (min-width: 1070px) {
       header h1 {
         padding-top: 50px;
-        font-size: 50px;
-        font-weight: 700;
-        font-style: oblique;} }
+        font-size: 72px;
+        font-weight: 700; } }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -700,20 +697,23 @@ header {
       @media only screen and (min-width: 220px) {
         header h1 span {
           padding: 0.2em 0.5em;
+          border: double;
+          padding: 0.2em 0.5em;
           border: solid;
           background-color: white;
-          color: #74471b;} }
+          color: #22719a;} }
       @media only screen and (min-width: 650px) {
         header h1 span {
           padding: 0.1em 0.2em; } }
       @media only screen and (min-width: 1070px) {
-        header h1 span { }
+        header h1 span {
+          padding: 0.2em 0.5em; } }
   header .kicker {
     text-align: center;
     line-height: 1;
     font-size: 20px;
     background-color: rgba(154, 127, 135, 0.07);
-    color: #572509; }
+    color: #22719a; }
 
 footer {
   background: url(../img/footer.jpg) center center;
@@ -1419,8 +1419,7 @@ form {
   #h_small .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-    }
+    color: rgba(0, 0, 0, 0.5); }
 
 .thumb-container {
   max-width: 960px;
