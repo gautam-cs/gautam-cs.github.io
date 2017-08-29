@@ -1,8 +1,9 @@
 ---
 layout: project
-title:  "GBike"
+title:  "GBike Gandhinagar Urban Development Authority(GUDA)"
 author: Gautam Kumar
 date:   2016-05-02 2015-10-26
+url_pr: http://www.guda.gujarat.gov.in/
 categories: project_blog
 description: "Gandhinagar Urban Development Authority(GUDA) has initiated a community bike sharing system in Gandhinagar.
              Around ten, cycle pick-up and drop stands have been set up from where people can take the bike and return it to any
