@@ -701,7 +701,7 @@ header {
           padding: 0.2em 0.5em;
           border: solid;
           background-color: white;
-          color: #22719a;} }
+          color: #d8210b;} }
       @media only screen and (min-width: 650px) {
         header h1 span {
           padding: 0.1em 0.2em; } }
@@ -713,7 +713,7 @@ header {
     line-height: 1;
     font-size: 20px;
     background-color: rgba(154, 127, 135, 0.07);
-    color: #22719a; }
+    color: #d8210b; }
 
 footer {
   background: url(../img/footer.jpg) center center;
