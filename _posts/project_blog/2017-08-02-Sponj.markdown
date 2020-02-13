@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "Submission Portal and Online Judge"
 date:   2015-10-26 2015-10-26
 categories: project_blog

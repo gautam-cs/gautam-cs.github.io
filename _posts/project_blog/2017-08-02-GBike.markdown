@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "GBike Gandhinagar Urban Development Authority(GUDA)"
 author: Gautam Kumar
 date:   2016-05-02 2015-10-26
